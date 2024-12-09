@@ -17,7 +17,7 @@ To run this application locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   https://github.com/Kxrishx03/Forms-project.git
+   git clone https://github.com/Kxrishx03/Forms-project.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
@@ -31,6 +31,47 @@ To run this application locally, follow these steps:
    ```bash
    npm run dev
    ```
-5. **Access the Application**   
+5. **Access the Application on browser**
+
+# Design Choices
+
+## Frontend Framework
+- **React** was chosen for its component-based architecture and strong ecosystem.
+- **Vite** was selected for faster builds and an optimized development experience.
+
+## Form Handling
+- **Formik** was used for handling form state and validations due to its simplicity and robust API.
+- **Yup** was integrated for declarative validation schemas, ensuring consistent validation rules.
+
+## Password Strength Indicator
+- Designed to give users immediate feedback about password quality.
+- Strength checks include:
+  - Length
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Special characters
+
+## Notifications
+- **React Toastify** was used for toast notifications due to its flexibility and ease of use.
+
+## Routing
+- **React Router** enables seamless navigation between sign-up and login pages.
+
+## Styling
+- CSS modules and a global CSS file provide a combination of scoped and shared styles for consistency.
+
+---
+
+# Assumptions 
+
+## Assumptions
+- Users are expected to provide valid email addresses during sign-up.
+- Passwords must meet the strength criteria:
+  - Minimum of 8 characters
+  - Includes uppercase, lowercase, numeric, and special characters.
+- The "Remember Me" feature only remembers the email, not the password, for security reasons.
+
+
 
    
