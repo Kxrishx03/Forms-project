@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;   
+    font-family: "Poppins", serif;
+  }
+  
+  .wrapper {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wel-tag {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #555;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  span {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: gray;
+  }
+  
+  .submit-button.success {
+    background-color: #7be995;
+  }
+  
+  .password-indicator {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .password-indicator ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .password-indicator li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+    color: #ff4d4d; 
+    font-weight: 400;
+    font-size: 0.85rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .password-indicator li.valid {
+    color:lightgray; 
+  }
+  
+  .password-indicator li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff4d4d;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .password-indicator li.valid::before {
+    background-color: lightgray
+  }
+  
+  .password-indicator li.hidden {
+    display: none;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-container label {
+    margin-left: 8px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: 0.85rem;
+    margin: 0;
+  }
+
+  .container{
+    animation: fadein linear 1s;
+    animation-direction: alternate;
+  }
+
+  @keyframes fadein {
+    0% {
+        opacity: 0;
+      }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+.success-toast {
+  background: #28a745;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+}
