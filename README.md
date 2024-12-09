@@ -21,7 +21,7 @@ To run this application locally, follow these steps:
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd react-auth-app
+   cd Forms-project
    ```
 3. **Install Dependencies**:
    ```bash
