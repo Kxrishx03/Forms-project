@@ -17,4 +17,20 @@ To run this application locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/react-auth-app.git
+   https://github.com/Kxrishx03/Forms-project.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd react-auth-app
+   ```
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the Development Server**:
+   ```bash
+   npm run dev
+   ```
+5. **Access the Application**   
+
+   
